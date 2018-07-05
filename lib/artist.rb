@@ -15,4 +15,7 @@ class Artist
     song.artist=self
     @@all+=1
   end
+
+  def self.save
+  end
 end
