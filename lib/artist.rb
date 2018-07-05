@@ -17,5 +17,6 @@ class Artist
   end
 
   def self.save
+    
   end
 end
