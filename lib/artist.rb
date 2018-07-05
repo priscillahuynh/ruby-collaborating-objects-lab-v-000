@@ -14,9 +14,10 @@ class Artist
   def add_song(song)
     @songs<<song
     song.artist=self
+    song
   end
 
-  def self.save
-
+  def save
+    @@all<<self
   end
 end
